@@ -177,3 +177,32 @@ main {
   font-size: 1.2rem;
   line-height: 1.5;
 }
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+    li {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    li.time,
+    li.done {
+        width: 100%;
+    }
+    button {
+        margin-right: 0;
+        margin-bottom: 8px; 
+    }
+}
+
+@media (min-width: 601px) {
+    body {
+        margin: 20px;
+    }
+    li {
+        margin-bottom: 15px;
+    }
+    li button {
+        margin-right: 2px; 
+    }
+}
